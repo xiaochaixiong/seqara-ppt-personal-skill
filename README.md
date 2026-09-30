@@ -79,6 +79,7 @@ python -X utf8 scripts/personal_ppt.py finalize "版本目录"
 运行自动测试：
 
 ```powershell
+python -m pip install -r requirements-test.txt
 python -B -X utf8 -m unittest discover -s tests -v
 ```
 

@@ -14,7 +14,7 @@ def main():
     paths=[p for p in root.rglob('*') if p.is_file() and '__pycache__' not in p.parts and '.git' not in p.parts and p.suffix!='.pyc' and p.name!='bundle-manifest.json']
     if len(paths)>1999 or sum(p.stat().st_size for p in paths)>49_000_000:raise ValueError('Seqara import limit exceeded')
     if any(p.is_symlink() or getattr(p,'is_junction',lambda:False)() for p in root.rglob('*')):raise ValueError('Bundle may not contain links')
-    manifest={'name':SKILL_NAME,'version':'1.2.0-public.1','files':{p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(paths)}}
+    manifest={'name':SKILL_NAME,'version':'1.2.0-public.2','files':{p.relative_to(root).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(paths)}}
     mp=root/'bundle-manifest.json';mp.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');paths.append(mp)
     out.parent.mkdir(parents=True,exist_ok=True)
     with ZipFile(out,'w',ZIP_DEFLATED) as z:
