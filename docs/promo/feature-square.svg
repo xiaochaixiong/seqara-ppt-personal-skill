@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071625"/><stop offset="0.56" stop-color="#10243B"/><stop offset="1" stop-color="#071522"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#193450"/><stop offset="1" stop-color="#0D2136"/></linearGradient>
+  <linearGradient id="photo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#93A6B7"/><stop offset="1" stop-color="#314B63"/></linearGradient>
+  <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE09A"/><stop offset="1" stop-color="#E3A34B"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1080" height="1080" fill="url(#bg)"/>
+<circle cx="896" cy="129" r="302" fill="#57D4DF" opacity=".08" filter="url(#glow)"/>
+<circle cx="280" cy="1026" r="248" fill="#F4AD58" opacity=".07" filter="url(#glow)"/>
+<g opacity=".2" stroke="#7393A9" stroke-width="1"><path d="M0 136 H1080"/><path d="M0 978 H1080"/></g>
+<rect x="62" y="60" width="211" height="33" rx="16" fill="#24455D"/>
+<text x="85" y="84" fill="#B8D8E1" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="700" letter-spacing="2">PERSONAL SKILL</text>
+<text x="62" y="181" fill="#F2F5F7" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="700" letter-spacing="0">一份讲稿，三层表达。</text>
+<text x="65" y="233" fill="#AFC5D1" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" letter-spacing="0">用原生对象把内容变成可复核的汇报。</text>
+<rect x="60" y="282" width="960" height="206" rx="26" fill="#173149" stroke="#3B5C74"/>
+<text x="90" y="336" fill="#F0B46C" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="700" letter-spacing="0">01  数据有依据</text>
+<text x="90" y="379" fill="#F2F5F7" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" letter-spacing="0">表格单元格 → 指标口径 → 可编辑图表</text>
+<path d="M676 426H963" stroke="#66859A" stroke-width="3"/>
+<path d="M693 412l59 -43 62 30 65 -74 65 22" fill="none" stroke="#E8A958" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="512" width="960" height="206" rx="26" fill="#173149" stroke="#3B5C74"/>
+<text x="90" y="568" fill="#F0B46C" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="700" letter-spacing="0">02  节奏有逻辑</text>
+<text x="90" y="611" fill="#F2F5F7" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" letter-spacing="0">讲述意群 → 桥接句 → 必要的转场页</text>
+<path d="M665 647H959" stroke="#66859A" stroke-width="5"/>
+<circle cx="698" cy="647" r="13" fill="#E9AB5D"/><circle cx="813" cy="647" r="13" fill="#7ECED7"/><circle cx="928" cy="647" r="13" fill="#E9AB5D"/>
+<rect x="60" y="742" width="960" height="206" rx="26" fill="#173149" stroke="#3B5C74"/>
+<text x="90" y="798" fill="#F0B46C" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="700" letter-spacing="0">03  图片有出处</text>
+<text x="90" y="841" fill="#F2F5F7" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="400" letter-spacing="0">Word 提取 → 项目归属 → 裁切复核</text>
+<rect x="684" y="784" width="100" height="109" rx="9" fill="#7991A2"/><rect x="795" y="784" width="163" height="50" rx="9" fill="#B7C8D0"/><rect x="795" y="844" width="163" height="49" rx="9" fill="#49677B"/>
+<text x="63" y="1029" fill="#809BAE" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="400" letter-spacing="0">功能示意 · 非真实项目截图</text>
+</svg>

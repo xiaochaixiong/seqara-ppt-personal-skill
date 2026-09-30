@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "kind": "data_source",
+  "id": "current",
+  "role": "data",
+  "path": "synthetic-current.xlsx",
+  "sha256": "8f167833e21ffd1ad828ad4357c94ad9f2f270c17c17de37eedc13b9c857cf8e",
+  "format": "xlsx",
+  "detail": {
+    "sheets": [
+      "Current"
+    ]
+  },
+  "cells": [
+    {
+      "id": "Current!A1",
+      "location": {
+        "sheet": "Current",
+        "cell": "A1",
+        "row": 1,
+        "column": 1
+      },
+      "raw": "月份",
+      "value": "月份",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!B1",
+      "location": {
+        "sheet": "Current",
+        "cell": "B1",
+        "row": 1,
+        "column": 2
+      },
+      "raw": "课程触达次数",
+      "value": "课程触达次数",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!A2",
+      "location": {
+        "sheet": "Current",
+        "cell": "A2",
+        "row": 2,
+        "column": 1
+      },
+      "raw": "1月",
+      "value": "1月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!B2",
+      "location": {
+        "sheet": "Current",
+        "cell": "B2",
+        "row": 2,
+        "column": 2
+      },
+      "raw": 12,
+      "value": 12,
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "number",
+      "numeric_value": 12.0
+    },
+    {
+      "id": "Current!A3",
+      "location": {
+        "sheet": "Current",
+        "cell": "A3",
+        "row": 3,
+        "column": 1
+      },
+      "raw": "2月",
+      "value": "2月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!B3",
+      "location": {
+        "sheet": "Current",
+        "cell": "B3",
+        "row": 3,
+        "column": 2
+      },
+      "raw": 18,
+      "value": 18,
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "number",
+      "numeric_value": 18.0
+    },
+    {
+      "id": "Current!A4",
+      "location": {
+        "sheet": "Current",
+        "cell": "A4",
+        "row": 4,
+        "column": 1
+      },
+      "raw": "3月",
+      "value": "3月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!B4",
+      "location": {
+        "sheet": "Current",
+        "cell": "B4",
+        "row": 4,
+        "column": 2
+      },
+      "raw": 24,
+      "value": 24,
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "number",
+      "numeric_value": 24.0
+    },
+    {
+      "id": "Current!A5",
+      "location": {
+        "sheet": "Current",
+        "cell": "A5",
+        "row": 5,
+        "column": 1
+      },
+      "raw": "4月",
+      "value": "4月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!B5",
+      "location": {
+        "sheet": "Current",
+        "cell": "B5",
+        "row": 5,
+        "column": 2
+      },
+      "raw": 26,
+      "value": 26,
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "number",
+      "numeric_value": 26.0
+    },
+    {
+      "id": "Current!A6",
+      "location": {
+        "sheet": "Current",
+        "cell": "A6",
+        "row": 6,
+        "column": 1
+      },
+      "raw": "5月",
+      "value": "5月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!B6",
+      "location": {
+        "sheet": "Current",
+        "cell": "B6",
+        "row": 6,
+        "column": 2
+      },
+      "raw": 21,
+      "value": 21,
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "number",
+      "numeric_value": 21.0
+    },
+    {
+      "id": "Current!A7",
+      "location": {
+        "sheet": "Current",
+        "cell": "A7",
+        "row": 7,
+        "column": 1
+      },
+      "raw": "6月",
+      "value": "6月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "Current!B7",
+      "location": {
+        "sheet": "Current",
+        "cell": "B7",
+        "row": 7,
+        "column": 2
+      },
+      "raw": 19,
+      "value": 19,
+      "formula": null,
+      "cached_value": null,
+      "number_format": "General",
+      "state": "number",
+      "numeric_value": 19.0
+    }
+  ]
+}

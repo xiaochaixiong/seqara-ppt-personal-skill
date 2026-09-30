@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "kind": "data_source",
+  "id": "prior",
+  "role": "data",
+  "path": "synthetic-prior.csv",
+  "sha256": "c06083c836fe0557927b74b71d23962a27cc714097c033cda7274886ef77bd06",
+  "format": "csv",
+  "detail": {
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "row_count": 7
+  },
+  "cells": [
+    {
+      "id": "r000001c0001",
+      "location": {
+        "row": 1,
+        "column": 1
+      },
+      "raw": "月份",
+      "value": "月份",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000001c0002",
+      "location": {
+        "row": 1,
+        "column": 2
+      },
+      "raw": "课程触达次数",
+      "value": "课程触达次数",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000002c0001",
+      "location": {
+        "row": 2,
+        "column": 1
+      },
+      "raw": "1月",
+      "value": "1月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000002c0002",
+      "location": {
+        "row": 2,
+        "column": 2
+      },
+      "raw": "10",
+      "value": "10",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "number",
+      "numeric_value": 10.0
+    },
+    {
+      "id": "r000003c0001",
+      "location": {
+        "row": 3,
+        "column": 1
+      },
+      "raw": "2月",
+      "value": "2月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000003c0002",
+      "location": {
+        "row": 3,
+        "column": 2
+      },
+      "raw": "13",
+      "value": "13",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "number",
+      "numeric_value": 13.0
+    },
+    {
+      "id": "r000004c0001",
+      "location": {
+        "row": 4,
+        "column": 1
+      },
+      "raw": "3月",
+      "value": "3月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000004c0002",
+      "location": {
+        "row": 4,
+        "column": 2
+      },
+      "raw": "16",
+      "value": "16",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "number",
+      "numeric_value": 16.0
+    },
+    {
+      "id": "r000005c0001",
+      "location": {
+        "row": 5,
+        "column": 1
+      },
+      "raw": "4月",
+      "value": "4月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000005c0002",
+      "location": {
+        "row": 5,
+        "column": 2
+      },
+      "raw": "20",
+      "value": "20",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "number",
+      "numeric_value": 20.0
+    },
+    {
+      "id": "r000006c0001",
+      "location": {
+        "row": 6,
+        "column": 1
+      },
+      "raw": "5月",
+      "value": "5月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000006c0002",
+      "location": {
+        "row": 6,
+        "column": 2
+      },
+      "raw": "18",
+      "value": "18",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "number",
+      "numeric_value": 18.0
+    },
+    {
+      "id": "r000007c0001",
+      "location": {
+        "row": 7,
+        "column": 1
+      },
+      "raw": "6月",
+      "value": "6月",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "text",
+      "numeric_value": null
+    },
+    {
+      "id": "r000007c0002",
+      "location": {
+        "row": 7,
+        "column": 2
+      },
+      "raw": "16",
+      "value": "16",
+      "formula": null,
+      "cached_value": null,
+      "number_format": null,
+      "state": "number",
+      "numeric_value": 16.0
+    }
+  ]
+}

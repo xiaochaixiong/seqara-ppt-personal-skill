@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seqara PPT Personal"
+  short_description: "用中性原生模板制作可编辑、可核验的汇报 PPT"
+  default_prompt: "使用 $seqara-ppt-personal-skill，根据我的口述稿规划讲述节奏，绑定数据和图片来源，并生成可编辑、逐页审查的 PowerPoint。"

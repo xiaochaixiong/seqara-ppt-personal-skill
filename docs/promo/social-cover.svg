@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071625"/><stop offset="0.56" stop-color="#10243B"/><stop offset="1" stop-color="#071522"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#193450"/><stop offset="1" stop-color="#0D2136"/></linearGradient>
+  <linearGradient id="photo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#93A6B7"/><stop offset="1" stop-color="#314B63"/></linearGradient>
+  <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE09A"/><stop offset="1" stop-color="#E3A34B"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<circle cx="996" cy="75" r="176" fill="#57D4DF" opacity=".08" filter="url(#glow)"/>
+<circle cx="312" cy="598" r="144" fill="#F4AD58" opacity=".07" filter="url(#glow)"/>
+<g opacity=".2" stroke="#7393A9" stroke-width="1"><path d="M0 136 H1200"/><path d="M0 528 H1200"/></g>
+<rect x="56" y="53" width="173" height="29" rx="14" fill="#24455D"/>
+<text x="78" y="75" fill="#B8D8E1" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="700" letter-spacing="2">PERSONAL SKILL</text>
+<text x="56" y="176" fill="#F2F5F7" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="55" font-weight="700" letter-spacing="0">口述稿 → 可编辑 PPT</text>
+<text x="58" y="233" fill="#B9CAD4" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="23" font-weight="400" letter-spacing="0">有证据的数据 · 有节奏的叙事 · 有来源的图片</text>
+<path d="M58 275H600" stroke="#5B7388" stroke-width="2"/>
+<text x="59" y="336" fill="#F0B46C" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="35" font-weight="700" letter-spacing="0">Seqara PPT Personal</text>
+<rect x="58" y="374" width="488" height="119" rx="18" fill="#173149" stroke="#31536E"/>
+<text x="84" y="417" fill="#F2F5F7" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="500" letter-spacing="0">原生对象复用  ·  五类可编辑图表</text>
+<text x="84" y="458" fill="#B5C6D2" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" letter-spacing="0">项目图归属审核  ·  PowerPoint 渲染检查</text>
+<g transform="translate(662 141) scale(0.9)">
+<rect width="510" height="300" rx="24" fill="#F8F9F9"/>
+<rect width="510" height="55" rx="24" fill="#EDF1F3"/><rect y="30" width="510" height="25" fill="#EDF1F3"/>
+<circle cx="30" cy="28" r="7" fill="#E8AA52"/><circle cx="51" cy="28" r="7" fill="#A7B8C6"/><circle cx="72" cy="28" r="7" fill="#A7B8C6"/>
+<rect x="30" y="79" width="210" height="10" rx="5" fill="#12283D"/>
+<rect x="30" y="102" width="135" height="7" rx="3" fill="#9FAEB9"/>
+<path d="M47 247H475 M47 197H475 M47 147H475" stroke="#DFE6E9" stroke-width="2"/>
+<path d="M64 221 L154 193 L247 204 L340 152 L443 132" fill="none" stroke="#EEA951" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="64" cy="221" r="7" fill="#EEA951"/><circle cx="154" cy="193" r="7" fill="#EEA951"/><circle cx="247" cy="204" r="7" fill="#EEA951"/><circle cx="340" cy="152" r="7" fill="#EEA951"/><circle cx="443" cy="132" r="7" fill="#EEA951"/>
+<rect x="60" y="259" width="40" height="5" rx="2" fill="#A7B8C6"/><rect x="159" y="259" width="40" height="5" rx="2" fill="#A7B8C6"/><rect x="258" y="259" width="40" height="5" rx="2" fill="#A7B8C6"/><rect x="357" y="259" width="40" height="5" rx="2" fill="#A7B8C6"/>
+</g>
+<g transform="translate(771 423) scale(0.48)">
+<rect width="370" height="250" rx="22" fill="url(#panel)" stroke="#4C6983" stroke-width="2"/>
+<rect x="33" y="38" width="88" height="7" rx="3" fill="#E9AB5D"/>
+<rect x="33" y="72" width="255" height="16" rx="5" fill="#ECF2F5"/>
+<rect x="33" y="102" width="194" height="8" rx="3" fill="#7F9CB4"/>
+<path d="M41 179H330" stroke="#53738C" stroke-width="4"/>
+<circle cx="62" cy="179" r="12" fill="#E9AB5D"/><circle cx="179" cy="179" r="12" fill="#7ECED7"/><circle cx="310" cy="179" r="12" fill="#E9AB5D"/>
+<path d="M179 178l36 -35" fill="none" stroke="#7ECED7" stroke-width="3"/>
+<rect x="35" y="211" width="76" height="6" rx="3" fill="#7F9CB4"/><rect x="151" y="211" width="76" height="6" rx="3" fill="#7F9CB4"/><rect x="270" y="211" width="58" height="6" rx="3" fill="#7F9CB4"/>
+</g>
+<g transform="translate(1008 405) scale(0.43)">
+<rect width="310" height="240" rx="21" fill="#F6F7F7"/>
+<rect x="22" y="25" width="266" height="24" rx="4" fill="#E7A856"/>
+<rect x="22" y="70" width="119" height="124" rx="8" fill="url(#photo)"/>
+<rect x="153" y="70" width="135" height="56" rx="8" fill="#BAC5CC"/>
+<rect x="153" y="138" width="135" height="56" rx="8" fill="#516B7D"/>
+<path d="M37 183l34 -45 25 25 25 -35" fill="none" stroke="#DCE7E9" stroke-width="5" opacity=".7"/>
+<rect x="22" y="210" width="144" height="6" rx="3" fill="#60798C"/>
+</g>
+<text x="59" y="595" fill="#809BAE" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="15" font-weight="400" letter-spacing="0">功能示意 · 非真实项目截图</text>
+</svg>

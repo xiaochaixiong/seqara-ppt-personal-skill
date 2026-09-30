@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.tmp
+.pytest_cache/
+*.log
+
+# Generated delivery versions and private local materials
+examples/**/verified/
+examples/**/visual-gallery/
+examples/**/output/
+examples/**/render/
+examples/manuscript*
+assets/contact-*
+assets/private*
+*.fntdata
+bundle-manifest.json

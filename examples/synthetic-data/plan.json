@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "title": "合成数据图表能力演示",
+  "template_sha256": "4afd338cf1206489ec22527d02bfacc132cc7f8609adf787a3dbb66fa9fe4a13",
+  "sources": [
+    "speech.source.json"
+  ],
+  "data_sources": [
+    "current.data.json",
+    "prior.data.json"
+  ],
+  "facts": [],
+  "metrics": [
+    {
+      "id": "y2026m1",
+      "kind": "source",
+      "value": 12,
+      "unit": "次",
+      "period": "2026年1月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "current:Current!B2"
+    },
+    {
+      "id": "y2026m2",
+      "kind": "source",
+      "value": 18,
+      "unit": "次",
+      "period": "2026年2月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "current:Current!B3"
+    },
+    {
+      "id": "y2026m3",
+      "kind": "source",
+      "value": 24,
+      "unit": "次",
+      "period": "2026年3月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "current:Current!B4"
+    },
+    {
+      "id": "y2026m4",
+      "kind": "source",
+      "value": 26,
+      "unit": "次",
+      "period": "2026年4月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "current:Current!B5"
+    },
+    {
+      "id": "y2026m5",
+      "kind": "source",
+      "value": 21,
+      "unit": "次",
+      "period": "2026年5月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "current:Current!B6"
+    },
+    {
+      "id": "y2026m6",
+      "kind": "source",
+      "value": 19,
+      "unit": "次",
+      "period": "2026年6月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "current:Current!B7"
+    },
+    {
+      "id": "y2025m1",
+      "kind": "source",
+      "value": 10,
+      "unit": "次",
+      "period": "2025年1月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "prior:r000002c0002"
+    },
+    {
+      "id": "y2025m2",
+      "kind": "source",
+      "value": 13,
+      "unit": "次",
+      "period": "2025年2月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "prior:r000003c0002"
+    },
+    {
+      "id": "y2025m3",
+      "kind": "source",
+      "value": 16,
+      "unit": "次",
+      "period": "2025年3月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "prior:r000004c0002"
+    },
+    {
+      "id": "y2025m4",
+      "kind": "source",
+      "value": 20,
+      "unit": "次",
+      "period": "2025年4月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "prior:r000005c0002"
+    },
+    {
+      "id": "y2025m5",
+      "kind": "source",
+      "value": 18,
+      "unit": "次",
+      "period": "2025年5月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "prior:r000006c0002"
+    },
+    {
+      "id": "y2025m6",
+      "kind": "source",
+      "value": 16,
+      "unit": "次",
+      "period": "2025年6月",
+      "population": "合成课程触达记录",
+      "measure": "课程触达次数",
+      "value_type": "actual",
+      "source_ref": "prior:r000007c0002"
+    }
+  ],
+  "pages": [
+    {
+      "id": "trend",
+      "template_slide": 4,
+      "purpose": "2026年课程触达量四月达峰，随后回落",
+      "slots": {
+        "5": {
+          "action": "replace",
+          "kind": "label",
+          "text": "合成数据验收 · 趋势"
+        },
+        "6": {
+          "action": "replace",
+          "kind": "inference",
+          "text": "2026年课程触达量四月达峰，随后回落",
+          "sources": [
+            "speech:p001"
+          ]
+        },
+        "11": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "12": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "13": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "15": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "16": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "17": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "18": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "19": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "20": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "29": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "30": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "31": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "32": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "33": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "34": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "35": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "36": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "37": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "38": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "39": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "40": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "41": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "42": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "43": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "44": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "45": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "47": {
+          "action": "replace",
+          "kind": "inference",
+          "text": "2026年先升后降，四月的课程触达次数最高。",
+          "sources": [
+            "speech:p001"
+          ]
+        },
+        "48": {
+          "action": "replace",
+          "kind": "source",
+          "text": "数据来源：合成测试表（XLSX／CSV）｜单位：次",
+          "sources": [
+            "current:Current!B2",
+            "prior:r000002c0002"
+          ]
+        }
+      },
+      "pictures": {},
+      "notes_refs": [
+        "speech:p001"
+      ],
+      "notes_extra": "仅用于公开示例的合成数据，不代表任何真实机构的业务结果。",
+      "data_chart": {
+        "type": "trend",
+        "categories": [
+          "1月",
+          "2月",
+          "3月",
+          "4月",
+          "5月",
+          "6月"
+        ],
+        "series": [
+          {
+            "name": "2026年",
+            "fact_ids": [
+              "y2026m1",
+              "y2026m2",
+              "y2026m3",
+              "y2026m4",
+              "y2026m5",
+              "y2026m6"
+            ]
+          }
+        ],
+        "bounds_pt": [
+          20,
+          140,
+          900,
+          330
+        ],
+        "source_label": "合成测试表",
+        "interpretation": "2026年课程触达量四月达峰，随后回落",
+        "replace_shapes": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "reason": "以参考页4的坐标区域容纳带内嵌工作簿的原生图表，并移除全部旧图对象"
+      }
+    },
+    {
+      "id": "comparison",
+      "template_slide": 4,
+      "purpose": "2026年各月均高于2025年，三月差距最大",
+      "slots": {
+        "5": {
+          "action": "replace",
+          "kind": "label",
+          "text": "合成数据验收 · 双序列比较"
+        },
+        "6": {
+          "action": "replace",
+          "kind": "inference",
+          "text": "2026年各月均高于2025年，三月差距最大",
+          "sources": [
+            "speech:p002"
+          ]
+        },
+        "11": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "12": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "13": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "15": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "16": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "17": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "18": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "19": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "20": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "29": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "30": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "31": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "32": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "33": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "34": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "35": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "36": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "37": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "38": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "39": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "40": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "41": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "42": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "43": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "44": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "45": {
+          "action": "remove",
+          "kind": "label",
+          "reason": "完整移除参考稿的旧时期坐标、注释和数值，改用新原生图表"
+        },
+        "47": {
+          "action": "replace",
+          "kind": "inference",
+          "text": "两期口径相同；三月2026年比2025年高八次。",
+          "sources": [
+            "speech:p002"
+          ]
+        },
+        "48": {
+          "action": "replace",
+          "kind": "source",
+          "text": "数据来源：合成测试表（XLSX／CSV）｜单位：次",
+          "sources": [
+            "current:Current!B2",
+            "prior:r000002c0002"
+          ]
+        }
+      },
+      "pictures": {},
+      "notes_refs": [
+        "speech:p002"
+      ],
+      "notes_extra": "仅用于公开示例的合成数据，不代表任何真实机构的业务结果。",
+      "data_chart": {
+        "type": "comparison",
+        "categories": [
+          "1月",
+          "2月",
+          "3月",
+          "4月",
+          "5月",
+          "6月"
+        ],
+        "series": [
+          {
+            "name": "2026年",
+            "fact_ids": [
+              "y2026m1",
+              "y2026m2",
+              "y2026m3",
+              "y2026m4",
+              "y2026m5",
+              "y2026m6"
+            ]
+          },
+          {
+            "name": "2025年",
+            "fact_ids": [
+              "y2025m1",
+              "y2025m2",
+              "y2025m3",
+              "y2025m4",
+              "y2025m5",
+              "y2025m6"
+            ]
+          }
+        ],
+        "bounds_pt": [
+          20,
+          140,
+          900,
+          330
+        ],
+        "source_label": "合成测试表",
+        "interpretation": "2026年各月均高于2025年，三月差距最大",
+        "replace_shapes": [
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35",
+          "36",
+          "37",
+          "38",
+          "39",
+          "40",
+          "41",
+          "42",
+          "43",
+          "44",
+          "45"
+        ],
+        "reason": "以参考页4的坐标区域容纳带内嵌工作簿的原生图表，并移除全部旧图对象"
+      }
+    }
+  ],
+  "gaps": []
+}

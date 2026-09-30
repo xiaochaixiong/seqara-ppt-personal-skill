@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "speech",
+  "role": "primary",
+  "path": "synthetic-speech.txt",
+  "sha256": "cea7cbbd4786e80e7fbcba971a6cb33aa590c68d8ecad83f231ecc7aa802a0ee",
+  "fragments": [
+    {
+      "id": "p001",
+      "text": "以下均为合成测试数据，不代表学院实际运行。2026年课程触达量一月至四月上升，四月达峰，后两月回落。"
+    },
+    {
+      "id": "p002",
+      "text": "与2025年同期比较，2026年六个月每个月均较高，其中三月差距最大；两期统计对象和计数规则在本样例中相同。"
+    }
+  ]
+}
